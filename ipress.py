@@ -13,7 +13,7 @@ if not archivos_excel:
 
 archivo = archivos_excel[0]  # Tomar el primer archivo .xls válido
 
-# Leer el archivo .xls (usando xlrd)
+# Leer el archivo .xls (usando xlrd)c
 try:
     df = pd.read_excel(archivo, engine='xlrd')  # Cambiado a xlrd
 except ModuleNotFoundError:
